@@ -67,7 +67,7 @@ const Homepage = () => {
                                     Created by: {creator ? creator.name : "Unknown"}
                                 </h3>
                                 {}
-                                <Link to={`/home/${ele.id}`}>View details</Link>
+                                <Link to={`/${ele.id}`}>View details</Link>
                             </div>
                         );
                     })
